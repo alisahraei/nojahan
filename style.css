@@ -1,0 +1,25 @@
+* {
+	box-sizing: border-box;
+}
+@font-face{
+	font-family: 'IRANSans';
+	src: url(font/IRANSansWeb.ttf);
+	font-style: normal;
+	font-display: swap;
+}
+body {
+	font-family: IRANSans;
+	background: url(./img.jpg) fixed 50% / cover;
+}
+div.img{
+	
+}
+div.text{
+	color: white;
+	position: absolute;
+	right: 5%;
+	bottom: 10%;
+	font-size: 40px;
+	font-family: IRANSans;
+	direction: rtl;
+}
